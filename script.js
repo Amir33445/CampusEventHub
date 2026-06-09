@@ -17,3 +17,15 @@ fetch("events.json")
     });
 
 });
+
+searchInput.addEventListener("input", () => {
+    displayEvents();
+});
+
+categoryFilter.addEventListener("change", () => {
+    displayEvents();
+});
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
