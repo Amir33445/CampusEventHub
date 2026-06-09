@@ -1,17 +1,26 @@
 [
   {
-    "title":"Hackathon 2026",
-    "date":"2026-06-20",
-    "category":"Technology"
+    "id": 1,
+    "title": "Hackathon 2026",
+    "date": "2026-06-20",
+    "location": "Computer Lab",
+    "category": "Technology",
+    "description": "24-hour coding competition."
   },
   {
-    "title":"Career Fair",
-    "date":"2026-06-25",
-    "category":"Education"
+    "id": 2,
+    "title": "Career Fair",
+    "date": "2026-06-25",
+    "location": "Main Auditorium",
+    "category": "Education",
+    "description": "Meet top employers."
   },
   {
-    "title":"Football Competition",
-    "date":"2026-06-30",
-    "category":"Sports"
+    "id": 3,
+    "title": "Football Tournament",
+    "date": "2026-06-30",
+    "location": "Sports Complex",
+    "category": "Sports",
+    "description": "Inter-department competition."
   }
 ]
