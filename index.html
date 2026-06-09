@@ -1,26 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Event Hub</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<header>
+    <h1>Campus Event Hub</h1>
+    <p>Find exciting events around campus</p>
 
-    <header>
-        <h1>Campus Event Hub</h1>
-        <p>Discover events happening around campus</p>
-    </header>
+    <button id="themeToggle">
+        Toggle Theme
+    </button>
+</header>
 
-    <section class="search-section">
-        <input type="text" id="searchInput" placeholder="Search events...">
-    </section>
+<section class="controls">
 
-    <section id="events-container">
-    </section>
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search events..."
+    >
 
-    <script src="script.js"></script>
+    <select id="categoryFilter">
+        <option value="All">All</option>
+        <option value="Technology">Technology</option>
+        <option value="Sports">Sports</option>
+        <option value="Education">Education</option>
+    </select>
 
-</body>
-</html>
+</section>
+
+<section id="eventsContainer"></section>
+
+<footer>
+    Campus Event Hub © 2026
+</footer>
